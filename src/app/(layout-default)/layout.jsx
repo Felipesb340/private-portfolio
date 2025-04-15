@@ -6,7 +6,7 @@ import { SideColumn } from "@/components/sidecolumn";
 export default function LayoutDefault({ children }) {
   return (
     <>
-      <div className="flex flex-row ">
+      <div className="flex flex-row mx-52 ">
         <Sidebar />
         <div className="w-full">
           <Header />
