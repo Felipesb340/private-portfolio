@@ -1,16 +1,18 @@
 import { Header } from "@/components/layout/header";
 import { Sidebar } from "@/components/layout/sidebar";
-
+import { Tweet } from "@/components/layout/tweet";
+import { SideColumn } from "@/components/sidecolumn";
 
 export default function LayoutDefault({ children }) {
   return (
     <>
-      <div className="flex ">
+      <div className="flex flex-row ">
         <Sidebar />
-        <div className="w-full" >
+        <div className="w-full">
           <Header />
-          {children}
+          <Tweet />
         </div>
+        <SideColumn />
       </div>
     </>
   );
