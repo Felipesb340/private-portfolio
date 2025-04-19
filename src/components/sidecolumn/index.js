@@ -1,1 +1,0 @@
-export { SideColumn } from "./sidecolumn"
