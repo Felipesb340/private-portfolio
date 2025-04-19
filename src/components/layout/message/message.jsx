@@ -23,22 +23,31 @@ export function Message() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center ">
-          <img src="/images/foto.png" height={247} width={509} className="rounded-xl" />
+        <div className="flex justify-center items-center p-7">
+          <img
+            src="/images/foto.png"
+            height={247}
+            width={509}
+            className="rounded-xl"
+          />
         </div>
 
         <div className="text-dark6 flex justify-around  ">
-          <div>
+          <div className="flex flex-row">
             <Mail />
+            <p className="pl-2">1,920</p>
           </div>
-          <div>
+          <div className="flex flex-row">
             <RotateCcwSquare />
+            <p className="pl-2">47</p>
           </div>
-          <div>
+          <div className="flex flex-row">
             <Heart />
+            <p className="pl-2">7</p>
           </div>
-          <div>
+          <div className="flex flex-row">
             <Share />
+            <p className="pl-2">7</p>
           </div>
         </div>
       </div>
